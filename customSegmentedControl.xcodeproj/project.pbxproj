@@ -13,6 +13,7 @@
 		EE8AD15B26D51B5E00E00320 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8AD15926D51B5E00E00320 /* Main.storyboard */; };
 		EE8AD15D26D51B6000E00320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE8AD15C26D51B6000E00320 /* Assets.xcassets */; };
 		EE8AD16026D51B6000E00320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8AD15E26D51B6000E00320 /* LaunchScreen.storyboard */; };
+		EE8AD16826D51BAD00E00320 /* segmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AD16726D51BAD00E00320 /* segmentedControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EE8AD15C26D51B6000E00320 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE8AD15F26D51B6000E00320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE8AD16126D51B6000E00320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8AD16726D51BAD00E00320 /* segmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = segmentedControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				EE8AD15526D51B5E00E00320 /* SceneDelegate.swift */,
 				EE8AD15726D51B5E00E00320 /* ViewController.swift */,
 				EE8AD15926D51B5E00E00320 /* Main.storyboard */,
+				EE8AD16726D51BAD00E00320 /* segmentedControl.swift */,
 				EE8AD15C26D51B6000E00320 /* Assets.xcassets */,
 				EE8AD15E26D51B6000E00320 /* LaunchScreen.storyboard */,
 				EE8AD16126D51B6000E00320 /* Info.plist */,
@@ -139,6 +142,7 @@
 			files = (
 				EE8AD15826D51B5E00E00320 /* ViewController.swift in Sources */,
 				EE8AD15426D51B5E00E00320 /* AppDelegate.swift in Sources */,
+				EE8AD16826D51BAD00E00320 /* segmentedControl.swift in Sources */,
 				EE8AD15626D51B5E00E00320 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
