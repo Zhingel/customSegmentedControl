@@ -51,9 +51,9 @@ class MyCustomSegmentControl: UIView {
             button.layer.borderWidth = 1
             button.layer.borderColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
             button.backgroundColor = .white
-            button.layer.cornerRadius = 8
+            button.layer.cornerRadius = 20
             button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
-            button.contentEdgeInsets = UIEdgeInsets(top: 10, left: 20, bottom: 10, right: 20)
+            button.contentEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
             button.titleLabel?.adjustsFontSizeToFitWidth = true
             button.titleLabel?.minimumScaleFactor = 0.5
             button.setTitle(buttonTitleItem, for: .normal)
@@ -68,6 +68,7 @@ class MyCustomSegmentControl: UIView {
         let stackView = UIStackView(arrangedSubviews: buttons)
         stackView.axis = .horizontal
         stackView.alignment = .center
+        stackView.spacing = 10
         stackView.distribution = .fillEqually
         self.addSubview(stackView)
         stackView.translatesAutoresizingMaskIntoConstraints = false
